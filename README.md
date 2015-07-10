@@ -5,16 +5,35 @@ mostly from state & muni sites for a project.
 
 The focus for me is around LA (city & county).
 
-The files:
+### Airports (Countywide)
+http://egis3.lacounty.gov/dataportal/2015/04/27/airports-countywide/
+* DRP_AIRPORTS
 
-Bottleneck2012 : traffic data from caltrans
-DRP_AIRPORTS : airport locations in LA county (from county)
-DRP_HIGHWAY_PLAN : highways in LA county (from county)
-lacounty_airport_runways : runway maps of la county
-LMS_Data_20140707.gdb : points of interest in LA (from county)
+### Master Plan of Highways
+http://egis3.lacounty.gov/dataportal/2015/06/25/master-plan-of-highways/
+* DRP_HIGHWAY_PLAN
 
-la_city.shp : maps from LA Times
-la_county.shp : maps from LA Times
+### Airport Runways
+http://egis3.lacounty.gov/dataportal/2013/01/29/airport-runways/
+* lacounty_airport_runways
 
-shn2014_ln : state highway master plan (from caltrans)
-shn2014_pm : state highway master plan (from caltrans)
+### Locations/Points of Interest (LMS Data) – July 2014 update
+http://egis3.lacounty.gov/dataportal/2014/07/07/locationspoints-of-interest-lms-data/
+* LMS_Data_20140707.gdb : points of interest in LA (from county)
+
+### 2014 State Highway Network (SHN) and Postmile System
+http://www.dot.ca.gov/hq/tsip/gis/datalibrary/Metadata/StateHighway.html
+* shn2014_ln
+* shn2014_pm
+* 
+### Bottlenecks for AM and PM Peak Periods
+http://www.dot.ca.gov/hq/tsip/gis/datalibrary/Metadata/Bottlenecks.html
+* Bottleneck2012
+
+### Mapping L.A. (LA Times)
+http://maps.latimes.com/about/#the-data
+```
+The Times neighborhood boundaries are available for use under a Creative Commons Attribution-Share Alike license. That means you can share and remix them for work as long as you credit The Los Angeles Times and release your creations under the same terms.
+```
+* la_city.shp
+* la_county.shp
